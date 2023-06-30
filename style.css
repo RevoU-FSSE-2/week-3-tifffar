@@ -240,13 +240,11 @@ button[type="submit"] {
   header p {
     font-size: 24px;
   }
-
-  .grid-container {
-    display: block;
-  }
+    .grid-container {
+      display: flex;
+      flex-direction: column;
+    }
 }
-
-
 
 
 
@@ -265,8 +263,9 @@ button[type="submit"] {
   }
 
   .grid-container {
-    display: block;
-}
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 
