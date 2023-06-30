@@ -11,4 +11,4 @@ Website ini dibuat sebagai tugas minggu kedua
 
 ## Link Website
 
-Link website dengan netlify [https://beamish-phoenix-ecba2a.netlify.app/](https://beamish-phoenix-ecba2a.netlify.app/).
+Link website dengan netlify [https://cheery-eclair-baefdc.netlify.app/](https://cheery-eclair-baefdc.netlify.app/#).
