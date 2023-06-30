@@ -30,6 +30,7 @@ nav {
   align-items: center;
   height: 52px;
   border-bottom: 2px solid #222222;
+  z-index: 1;
 }
 
 nav > ul {
@@ -72,8 +73,7 @@ header {
   background-position: top center;
 }
 
-#about,
-#album{
+#about{
   margin: 0 16px;
 }
 
@@ -240,7 +240,15 @@ button[type="submit"] {
   header p {
     font-size: 24px;
   }
+
+  .grid-container {
+    display: block;
+  }
 }
+
+
+
+
 
 /* Lebar layar 425px */
 @media screen and (min-width: 376px) and (max-width: 425px) {
@@ -255,7 +263,12 @@ button[type="submit"] {
   header p {
     font-size: 28px;
   }
+
+  .grid-container {
+    display: block;
 }
+}
+
 
 /* Lebar layar 768px */
 @media screen and (min-width: 426px) and (max-width: 768px) {
@@ -343,8 +356,7 @@ button[type="submit"] {
 
 /* Lebar layar 1440px ke atas */
 @media screen and (min-width: 1441px) {
-  #about,
-  #album {
+  #about {
     max-width: 1024px;
     margin: 0 auto;
   }
